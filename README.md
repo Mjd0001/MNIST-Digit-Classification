@@ -35,51 +35,51 @@ pip install -r requirements.txt
 3. Open the Jupyter Notebook on Google Colab or any other environment to run the code.
 
 ## Usage
-1- Load the Jupyter Notebook:
+1. Load the Jupyter Notebook:
 
 - If using Google Colab, upload the notebook and run all cells to train the model.
 - Alternatively, run it locally on Jupyter Notebook.
-2- Train the Neural Network using the MNIST dataset. The model will output the accuracy on the training and test data.
+2. Train the Neural Network using the MNIST dataset. The model will output the accuracy on the training and test data.
 
-3- The notebook includes a Predictive System that allows users to input an image for digit recognition:
+3. The notebook includes a Predictive System that allows users to input an image for digit recognition:
 
 The user can provide a path to a handwritten digit image, and the system will predict the corresponding digit.
-4- Use the trained model to predict handwritten digits by running the predictive system and entering the image path.
+4. Use the trained model to predict handwritten digits by running the predictive system and entering the image path.
 
 ## Model Architecture
 The Neural Network model consists of:
 
-Input Layer: Flatten the 28x28 image into a 1D array of 784 pixels.
-Hidden Layers:
-50 neurons with ReLU activation.
-Another layer with 50 neurons and ReLU activation.
-Output Layer: 10 neurons with sigmoid activation (for digits 0-9).
+1. Input Layer: Flatten the 28x28 image into a 1D array of 784 pixels.
+2. Hidden Layers:
+- 50 neurons with ReLU activation.
+- Another layer with 50 neurons and ReLU activation.
+3. Output Layer: 10 neurons with sigmoid activation (for digits 0-9).
 The model uses Adam optimizer and sparse_categorical_crossentropy as the loss function, and is trained for 10 epochs.
 
 ## Evaluation
 The model achieves the following accuracies:
 
-Training Accuracy: 98.9%
-Test Accuracy: 96.6%
+- Training Accuracy: 98.9%
+- Test Accuracy: 96.6%
 The model's performance is also evaluated using a Confusion Matrix and visualized with a heatmap to understand its classification accuracy across different digits.
 
-Predictive System
+## Predictive System
 The notebook also contains a system for recognizing handwritten digits from external images. Simply provide the path to the image, and the system will:
 
-Convert the image to grayscale.
-Resize it to 28x28 pixels.
-Scale the pixel values.
-Predict the digit using the trained neural network.
+1. Convert the image to grayscale.
+2. Resize it to 28x28 pixels.
+3. Scale the pixel values.
+4. Predict the digit using the trained neural network.
 ## Dependencies
 To run this project, you will need the following libraries:
 
-Python 3.x
-NumPy
-Matplotlib
-Seaborn
-OpenCV (cv2)
-TensorFlow
-Keras
+- Python 3.x
+- NumPy
+- Matplotlib
+- Seaborn
+- OpenCV (cv2)
+- TensorFlow
+- Keras
 Install the dependencies using:
 
 ```
