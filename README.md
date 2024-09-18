@@ -21,18 +21,18 @@ The MNIST dataset is directly loaded from the keras.datasets library, which incl
 Each image is labeled with the corresponding digit it represents.
 
 ## Installation
-Clone this repository:
+1. Clone this repository:
 
 ```
 git clone https://github.com/yourusername/mnist-handwritten-digit-classification.git
 cd mnist-handwritten-digit-classification
 ```
-Install the necessary dependencies:
+2. Install the necessary dependencies:
 
 ```
 pip install -r requirements.txt
 ```
-Open the Jupyter Notebook on Google Colab or any other environment to run the code.
+3. Open the Jupyter Notebook on Google Colab or any other environment to run the code.
 
 ## Usage
 1- Load the Jupyter Notebook:
